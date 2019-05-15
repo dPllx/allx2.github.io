@@ -1,0 +1,179 @@
+*{margin: 0;padding: 0;list-style: none;border:none;}
+/*
+KISSY CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+特色：1. 适应中文；2. 基于最新主流浏览器。
+ */
+ /*清除触摸案件灰色背景 */
+html,body{-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+  margin: 0;
+  padding: 0;
+}
+
+/** 设置默认字体 **/
+body,section,figure,figcaption
+button, input, select, textarea /* for ie */ {
+	font-family:-apple-system, BlinkMacsystemFont,"segoe UI", Helvetica, Arial,12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+/*a:hover { text-decoration; }*/
+
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正
+body{ background-color:#F5F3F3;} 
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+/*
+ * 
+ */
+header{
+	width: 100%;
+	height: 6%;
+	background-color:rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	position: fixed;
+	z-index: 98;
+
+}
+
+header ul{	
+			width: 100%;
+			height: 100%;
+			display: block;
+			text-align: center;
+}
+header a{
+			text-align: center;
+			display: block;
+			color: #FFFFFF;
+			margin-top: 9.5%;
+			font-family: "微软雅黑";			
+}
+header li{
+	 		float: left; 
+	 		display: block; 
+	 		width: 20%;
+	 		height: 100%; 
+}
+header li img{margin-top:-2%; 
+}
+.body_all {
+			display: block;
+			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
+}
+.box{
+				width: 100%; 
+				height: 100%;
+				line-height: 5;
+				text-align: center;
+				font-size: 5em;
+				color: #fff;
+				text-transform: capitalize;
+				vertical-align:middle; 
+}
+footer{
+			width: 100%;
+			height: 10%;
+			position: fixed;
+			background-color:rgba(0,0,0,0.88);
+			margin: auto;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			box-shadow: 0px 0px 3px ;
+}
+footer ul{
+			width: 100%;
+			height: 100%;
+			display: block;
+			text-align:center;
+			margin-top: 2%;
+}
+footer a{
+			font-family: "微软雅黑";
+			display: block;
+			color: #FFFFFF;
+}
+footer li{
+	 		float: left; 
+	 		display: block; 
+	 		width: 25%;
+	 		height: 100%; 
+	 		/*margin-top: .5%;*/
+}
+footer div{
+			font-size: 11px;
+			margin-top: -2%;
+}
+.shouye_color{color: #00d3c9;}
+.txt_box {
+			width: 100%;
+			height: 7%;
+			text-align: center;	
+}
+.txt_box a{
+			color:#000000 ;
+			line-height: 3.9em;
+}
+.txt_box a:hover{color: #00d3c9;}
+.txt_box span{
+			margin-left: 1em;
+			color: #B5B5B5;
+}
+.work_article{
+			width: 100%;
+			height: auto;
+
+}
+figure{
+			width: 90%;
+			height: auto;
+			margin-left: 5%;
+}
+figure h1 {
+			font-family: "微软雅黑";
+			font-size: 19px;
+			margin-top: 3.5%;
+}
+figure p{
+			font-family: "微软雅黑";
+			font-size: 13px;
+			width: 100%;
+			color: #8d8d8d;
+			font-weight: 300;
+			line-height: 20px;
+}
+.iconfont2_box{
+			margin-top: 1%;
+			float: right;
+}
+.work_article_hr{
+			height:1px;
+			width:100%; 
+			margin:0 auto; 
+			margin-top: 3%;
+			border:none;
+			border-top:2px dotted #D3D3D3;
+}
