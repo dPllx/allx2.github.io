@@ -1,0 +1,388 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1656903022528') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-NICO-LOGO:before {
+  content: "\e623";
+}
+
+
+
+/*-----------------------------------*/
+
+
+/* __________ Logo __________ */
+.logo {
+	float:left;}
+/* .logo a {
+	text-transform:uppercase;
+	line-height:2px;
+	font-size:26px;
+	color:#333;
+} */
+.logo a span {
+	display:inline-block;
+	padding-right:18px;
+}
+
+/* .logo_b{
+	margin-top: 39px;
+} */
+
+
+/*----------logo-----------------*/
+
+ @media (max-width: 480px) {
+ 	.logo_b {
+ 		margin-top: 26px;
+ 	}
+ }
+ 
+ @media (min-width: 767px) {
+ 	.logo_b {
+ 		margin-top: 30px;
+ 	}
+ }
+ 
+ }
+ 
+ /*-----------------------------------------*/
+
+
+
+
+/*----------logo的文字-----------------*/
+
+ @media (max-width: 480px) {
+ 	.logo_lili {
+ 		float: right;
+ 		margin-left: 115px !important;
+ 		margin-top: 4px;
+		margin-left: 15px;
+ 	}
+ }
+ @media (min-width: 767px) {
+ 	.logo_lili {
+ 		margin-left: 12px !important;
+ 		float: right;
+ 		margin-top: 2px !important;
+ 	}
+ }
+ 
+ 
+ 
+ @media (max-width: 480px) { 	
+ 	.logo_b h3{
+ 		font-weight: bold !important;
+ 		font-size: 19px !important;
+ 		line-height: 0px;
+ 	}
+ }
+ @media (min-width: 767px) {
+ 	.logo_b h3{
+ 		font-weight: bold !important;
+ 		font-size: 20px !important;
+ 		line-height: 0px;
+		/* line-height: -20px; */
+ 	}
+ }
+ 
+ @media (max-width: 480px) {
+ 	#nico-span{
+ 		font-size: 6.5px !important;
+ 		line-height: 0px;
+ 	}
+ }
+ @media (min-width: 767px) {
+ 	#nico-span{
+ 		font-size: 13.5px !important;
+ 		line-height: 0px;
+ 		/* line-height: -20px; */
+ 	}
+ }
+ 
+ 
+
+ 
+ 
+ 
+ 
+ @media (max-width: 480px) {
+ 	.logo_lili-02 {
+		margin-left: 50px;
+		margin-top: -30px;
+		line-height: 0px !important;
+ 	}
+ }
+ @media (min-width: 767px) {
+ 	.logo_lili-02 {
+		line-height: 0px !important;
+ 	}
+ }
+ 
+ 
+
+ 
+ /*-----------------------------------------*/
+ 
+ .logo_lili a:hover{
+ 	color: #555;
+ }
+ .icon-nico-logo{
+ 	color: #1D1D1F;
+ }
+ 
+
+  
+  @media (max-width: 480px) {
+  	#logo-iconn{
+ 		font-size: 48px;
+ 		/* margin-top: -4px; */
+		color: #1D1D1F;
+		margin-left: -10px;
+  	}
+  }
+  @media (min-width: 767px) {
+  	#logo-iconn{
+ 		font-size: 60px;
+ 		/* margin-top: -5px; */
+		color: #1D1D1F;
+  	}
+  }
+  
+  /*----------banner-----------------*/
+.nico-font-weight{
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: -9px;
+}
+
+
+
+  @media (max-width: 480px) {
+  	.blog_nico_img{
+  		width: 49.5%;
+		float: left;
+		padding: 2px;
+		text-align: center;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.blog_nico_img{
+  		width: 30%;
+		float: left;
+		padding: 5px;
+		text-align: center;
+		/* line-height: 0px; */
+  	}
+  }
+  
+
+  @media (max-width: 480px) {
+  	.blog_nico_img a{
+  		font-size: 9px;
+  		color: #000000;
+  		font-weight: bold;
+		line-height: 3;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.blog_nico_img a{
+  		font-size: 15px;
+  		color: #000000;
+  		font-weight: bold;
+		line-height: 3;
+  	}
+  }
+
+
+
+.blog_nico_img a:hover{
+	color: #1C1C1C;
+}
+  @media (max-width: 480px) {
+  	.blog_img_nico_box {
+  	width: 100%;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.blog_img_nico_box {
+  		width: 100%;
+  	}
+  }
+  
+  .blog_img_nico_box li{
+	  float: left;
+  }
+  /*---------产品-banner------------*/
+		/* 本例子css */
+				.slideBox{ width:100%; height:auto; overflow:hidden; position:relative;/* border:1px solid #ddd; */ }
+				.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+				.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+				.slideBox .hd ul li{ float:left; margin-right:4px;  width:30px; height:30px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+				.slideBox .hd ul li.on{ background:#000; color:#fff; }
+				.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+				.slideBox .bd li{ zoom:1; vertical-align:middle; }
+				.slideBox .bd img{ width:100%; height:auto; display:block;  }
+
+
+@media (max-width: 480px) {
+  	.ban-ing1 {
+	height: 100%;
+	overflow: hidden;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.ban-ing1 {
+  		width: 100%;
+		overflow: hidden;
+  	}
+}
+
+
+@media (max-width: 480px) {
+  	.ban-ing img {
+	height: 100%;
+	background-repeat: no-repeat;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.ban-ing img {
+  	width: 100%;
+	background-repeat: no-repeat;
+  	}
+}
+
+
+@media (max-width: 480px) {
+  	.SLMITEX-banner {
+	width: 90%;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.SLMITEX-banner {
+	background-color: #FFFFFF;
+  	width: 35%;
+	margin-left: 25%;
+  	}
+}
+
+.nico-txt{
+	margin-top: 23px;
+}
+
+
+
+@media (max-width: 480px) {
+  	.nico-video video{
+	width: 100%;	
+	background-color: #ffffff;
+	margin: 0 auto;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.nico-video video{
+  	width: 100%;
+	background-color: #ffffff;
+	margin: 0 auto;
+  	}
+}
+
+@media (max-width: 480px) {
+  	.nico-video-1 video{
+	width: 100%;	
+	background-color: #ffffff;
+	margin: 0 auto;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.nico-video-1 video{
+  	width: 120%;
+	background-color: #ffffff;
+	margin: 0 auto;
+  	}
+}
+
+
+
+@media (max-width: 480px) {
+  	.nico-width{
+	width: 100%;	
+  	}
+  }
+  @media (min-width: 767px) {
+  	.nico-width{
+  	width: 120%;
+  	}
+}
+
+.nico-bottom{
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.nico-bottom a{
+	color: #fff;
+	margin: 0 0 5px;
+}
+.nico-bottom p{
+	margin: 0 0 5px;
+}
+
+@media (max-width: 480px) {
+  	.nico-width-01{
+	width: 95%;	
+	margin: 0 0 0 5px;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.nico-width-01{
+  	width: 32.3333333%;
+  	}
+}
+
+@media (max-width: 480px) {
+  	.suoxiao{
+	margin:0 0 -54px;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.suoxiao{
+  	}
+}
+
+
+
+
+@media (max-width: 480px) {
+  	.nico-txt-02 p{
+	padding-right:10px;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.nico-txt-02 p{
+	padding-right:70px;
+  	}
+}
+@media (max-width: 480px) {
+  	.nico-txt-03 {
+	line-height: 23px;
+	font-size: 15px;
+  	}
+  }
+  @media (min-width: 767px) {
+  	.nico-txt-03 {
+  	}
+}
