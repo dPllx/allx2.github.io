@@ -1,0 +1,160 @@
+#part_bd {
+			display: none;
+			width: 280px;
+			height: 546px;
+			background-color: #f6f6f6;
+			border-radius: 20px;
+			padding-top: 20px;
+			z-index: 999;
+			
+			-webkit-box-shadow:0 0 0.08rem #c3ab9a;
+			box-shadow:0 0 0.08rem #c3ab9a;
+
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+
+		@charset "utf-8";
+
+
+
+		.info__input {
+			border: 1px solid #CCC;
+			border-radius: 5px;
+			width: 90%;
+			height: 50px;
+			font-size: 16px;
+			margin-top: 0.5rem;
+			background-color: #FBFBFD;
+			padding-left: 10px;
+		}
+
+		.select {
+			border: 1px solid #CCC;
+			border-radius: 2px;
+			width: 30px;
+			height: 20px;
+			font-size: 16px;
+			margin-top: 20px;
+			padding-left: 10px;
+			color: #999;
+		}
+
+		.st input {
+			background-color: #db9946;
+			border-radius: 5px;
+			width: 40%;
+			height: 40px;
+			border: none;
+			font-size: 20px;
+			color: #FBFBFD;
+			margin: 20px auto;
+			text-align: center;
+			cursor: pointer;
+			margin-left: 33%;
+		}
+
+		.part1_bd {
+			font-size: 20px;
+			color: #724001;
+			margin-top: 2px;
+		}
+
+		.part1_bd input {
+			border: 1px solid #CCC;
+			margin-left: 10px;
+			width: 60%;
+			margin-top: 15px;
+		}
+
+		.part1_bd select {
+			border: 1px solid #CCC;
+			margin-left: 10px;
+			width: 60%;
+			margin-top: 15px;
+		}
+
+		.part1_bd p {
+			float: left;
+			text-align: right;
+			width: 30%;
+			margin-top: 20px;
+		}
+
+		.p-erweima-img {
+			padding: 0px;
+			text-align: center;
+		}
+
+		.p-erweima-img img {
+			width: 120px;
+			height: 120px;
+			margin-top: 20px;
+		}
+		.p-erweima-img li {
+			margin: 0 auto;
+			margin-top:1%;
+			font-size: 10px;
+		}
+
+		.gb {
+			text-align: right;
+			font-size: 16px;
+			margin-bottom: 2px;
+			padding-right: 23px;
+			cursor: pointer;
+		}
+
+
+.side_right {
+	position: fixed;
+	z-index: 999;
+	right: -2%;
+	width: 60px;
+	height: 0;
+	top: 50%;
+}
+
+.side_right ul li {
+	margin-bottom: 1px;
+	position: relative;
+	height: 60px;
+	width: 60px;
+}
+
+.side_right ul li span {
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 100%;
+	background: rgba(235, 159, 62, .5);
+	font-family: "iconfont";
+	display: block;
+	color: #FBFBFD;
+	z-index: 99;
+	position: relative;
+	font-size: 24px;
+	
+}
+
+.animate_wen {
+	height: 60px;
+	background: #eb9f3e;
+	line-height: 60px;
+	text-indent: 34px;
+	color: #FBFBFD;
+	border-radius: 30px;
+	position: absolute;
+	left: 60px;
+	top: 0;
+	z-index: 98;
+	z-index: 98;
+	width: 0;
+	overflow: hidden;
+}

@@ -1,0 +1,42 @@
+/*.amc-video-box{
+	width: 96%;
+	height: auto;
+	margin: 0 auto;
+	padding: 2px 0 0 0;
+}
+.amc-video-box hr{
+	width: 94%;
+	margin: 0 auto;
+}
+.amc-video-box-01{
+	width: 100%;
+	margin: 0 auto;
+	 background-color: #ffddb2;
+	border-radius: 7px; 
+}
+.amc-video-box-02{
+	width: 100%;
+	margin: 0 auto;
+}
+.amc-video-box video{
+	display: block;
+	width: 93%;
+	margin: 0 auto;
+	padding: 25px 0 0 0;
+}
+.amc-video-box-h3{
+	width: 100%;
+	margin: 0 auto;
+	margin: 10px 0 0 0;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	color: #1D1D1F;
+}*/
+.new_zj_box a{
+	display: block;
+	margin: 0 auto;
+	font-size: 15px;
+	text-align: center;
+	height: auto;
+}

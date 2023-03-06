@@ -1,0 +1,150 @@
+
+.m-amc-txt-box{
+	width: 89%;
+	margin: 0 auto;
+	line-height: 0.7rem;
+	font-size: 0.35rem;
+}
+.m-amc-txt-box img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.m-amc-txt-box p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.m-amc-txt-box-02{
+	width: 87%;
+	margin: 0 auto;
+	
+}
+.m-amc-txt-box-02 li{
+	display: block;
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+}
+.m-amc-txt-box-02 a{
+	color: #FBFBFD;
+	width: 23%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #db9946;
+	float: left;
+	text-align: center;
+	border-radius: 30px 0 0 30px;
+	font-weight: bold;
+	font-size: 16px;
+	/* border: 1px solid #333333; */
+}
+.m-amc-txt-box-02 p{
+	width: 77%;
+	float: left;
+	line-height: 30px;
+	background-color: #FBFBFD;
+	border-radius: 0 30px 30px 0;
+	border: 1px solid #db9946;
+}
+.m-amc-txt-box-02 span{
+	margin-left: 5px;
+	float: left;
+	width: 93%;
+	margin-top 50%;
+}
+
+
+
+
+.m-amc-txt-box-03{
+	width: 87%;
+	margin: 0 auto;
+	
+}
+.m-amc-txt-box-03 li{
+	display: block;
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+}
+/* .m-amc-txt-box-03 a{
+	color: #FBFBFD;
+	width: 23%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #db9946;
+	float: left;
+	text-align: center;
+	border-radius: 30px 30px 30px 30px;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #333333; 
+}*/
+.m-amc-txt-box-03 p{
+	width: 103%;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	background-color: #FBFBFD;
+	border-radius: 30px 30px 30px 30px;
+	border: 1px solid #db9946;
+	margin-left: -1.5%;
+}
+.banner-02{
+	width: 93%;
+	margin: 0 auto;
+}
+
+
+
+.m-amc-txt-box-04{
+	width: 87%;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	
+}
+.m-amc-txt-box-04 li{
+	display: block;
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+}
+.m-amc-txt-box-04 a{
+	color: #FBFBFD;
+	width: 23%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #db9946;
+	float: left;
+	text-align: center;
+	border-radius: 30px 0 0 30px;
+	font-weight: bold;
+	font-size: 16px;
+	/* border: 1px solid #333333; */
+}
+.m-amc-txt-box-04 p{
+	width: 77%;
+	float: left;
+	line-height: 28px;
+	background-color: #FBFBFD;
+	border-radius: 0 30px 30px 0;
+	border: 1px solid #db9946;
+}
+.m-amc-txt-box-04 span{
+	margin-left: 5px;
+	float: left;
+	width: 93%;
+	margin-top 50%;
+}
+.amc-h3{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 19px;
+}
+
+.banner-amc{
+	margin: 0 auto;
+	width: 87%;
+}

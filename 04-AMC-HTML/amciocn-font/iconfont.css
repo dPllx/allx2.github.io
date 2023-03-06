@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1656903012802') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about-AMC:before {
+  content: "\e613";
+}
+
+.icon-a-10-core:before {
+  content: "\e614";
+}
+
+.icon-thing:before {
+  content: "\e615";
+}
+
+.icon-service:before {
+  content: "\e616";
+}
+
+.icon-visit:before {
+  content: "\e617";
+}
+
+.icon-ground-floor:before {
+  content: "\e618";
+}
+
+.icon-second-floor:before {
+  content: "\e619";
+}
+
+.icon-third-floor:before {
+  content: "\e61a";
+}
+
+.icon-fourthFloor:before {
+  content: "\e61b";
+}
+
+.icon-AMC-honor:before {
+  content: "\e61c";
+}
+
+.icon-AMC-open:before {
+  content: "\e61d";
+}
+
+.icon-cooperation:before {
+  content: "\e61e";
+}
+
+.icon-AMC-team:before {
+  content: "\e61f";
+}
+
+.icon-humanity:before {
+  content: "\e620";
+}
+
+.icon-environment:before {
+  content: "\e621";
+}
+
+.icon-AMC-profile:before {
+  content: "\e622";
+}
+
+.icon-P-Medicine:before {
+  content: "\e623";
+}
+
+.icon-leader-visit:before {
+  content: "\e624";
+}
+
+.icon-technology:before {
+  content: "\e625";
+}
+
+.icon-vip:before {
+  content: "\e626";
+}
+
+.icon-watch-video:before {
+  content: "\e627";
+}
+
+.icon-heart-core:before {
+  content: "\e628";
+}
+
+.icon-antifading-core:before {
+  content: "\e629";
+}
+
+.icon-fatigue-core:before {
+  content: "\e62a";
+}
+
+.icon-liver-core:before {
+  content: "\e62b";
+}
+
+.icon-bones-core:before {
+  content: "\e62c";
+}
+
+.icon-sexy-core:before {
+  content: "\e62d";
+}
+
+.icon-tumour-core:before {
+  content: "\e62e";
+}
+
+.icon-metabolize-core:before {
+  content: "\e62f";
+}
+
+.icon-veins-core:before {
+  content: "\e630";
+}
+
+.icon-immune-core:before {
+  content: "\e631";
+}
+
+.icon-Ecological-meal:before {
+  content: "\e632";
+}
+
+.icon-ceremony:before {
+  content: "\e633";
+}
+
+.icon-nico-experiment:before {
+  content: "\e634";
+}
+
+.icon-teas-time:before {
+  content: "\e635";
+}
+
+.icon-anion-air:before {
+  content: "\e636";
+}
+
+.icon-green-meal:before {
+  content: "\e637";
+}
+
+.icon-salon:before {
+  content: "\e638";
+}
+
+.icon-lipstick-party:before {
+  content: "\e639";
+}
+
+.icon-AMC-LOGO:before {
+  content: "\e63a";
+}
+
+.icon-water:before {
+  content: "\e63b";
+}
+
+.icon-movies-core:before {
+  content: "\e63c";
+}
+
+.icon-location:before {
+  content: "\e63d";
+}
+
+.icon-weibo:before {
+  content: "\e63e";
+}
+
+.icon-wechat:before {
+  content: "\e63f";
+}
+
+.icon-erweima:before {
+  content: "\e7ad";
+}
+
+.icon-NICO-LOGO:before {
+  content: "\e640";
+}
+
+.icon-visit1:before {
+  content: "\e641";
+}
+
+.icon-AMC-LOGO1:before {
+  content: "\e642";
+}
+

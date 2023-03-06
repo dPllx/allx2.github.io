@@ -1,0 +1,136 @@
+.header--sub {
+	width: 100%;
+	padding-top: .10667rem;
+	border-top: .02667rem solid #f6f4f2;
+	-webkit-box-shadow: 0 0 .24rem #ffd49f;
+	box-shadow: 0 0 .24rem #ffd49f;
+	background-color: #FBFBFD
+}
+
+.header--sub-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.header--sub-item {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: center;
+	line-height: .8rem
+}
+
+.header--sub-item-link {
+	font-size: .4rem;
+	color: #a4a4a4
+}
+
+.header--sub-item.current {
+	background: url(../imgs/tab_btn1.png) bottom/100% 100% no-repeat #FBFBFD
+}
+
+.current .header--sub-item-link {
+	color: #FBFBFD
+}
+
+.main {
+	padding: 1.33333rem 0 1.86667rem
+}
+
+.main-banner-img {
+	width: 100%
+}
+
+.specialist--list {
+	padding: .66667rem .21333rem .13333rem
+}
+
+.specialist--item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	-webkit-box-shadow: 0 0 .13333rem #ebebeb;
+	box-shadow: 0 0 .13333rem #ebebeb;
+	margin-bottom: .26667rem;
+	font-size: 0
+}
+
+.specialist--item-left {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 2.66667rem;
+	flex: 0 0 2.66667rem;
+	padding: .26667rem
+}
+
+.specialist--item-thumb {
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid #f6f6f6;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: .2rem
+}
+
+.specialist--item-thumb img {
+	width: 100%
+}
+
+.specialist--item-tel {
+	display: block;
+	height: .50667rem;
+	width: 1.78667rem;
+	line-height: .50667rem;
+	border-radius: .50667rem;
+	border: 1px solid #ff9d22;
+	color: #ff9d22;
+	font-size: .32rem;
+	text-align: center
+}
+
+.specialist--item-right {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 6.8rem;
+	flex: 1 1 6.8rem;
+	padding: .13333rem 1.06667rem .13333rem .13333rem
+}
+
+.specialist--item-name {
+	font-size: .48rem;
+	color: #626262;
+	vertical-align: baseline;
+	vertical-align: initial;
+	line-height: 2
+}
+
+.specialits--item-position,
+.specialits--item-skill,
+.specialits--item-title {
+	font-size: .26667rem;
+	color: #9b9b9b;
+	vertical-align: baseline;
+	vertical-align: initial
+}
+
+.specialist--item-link {
+	display: inline-block
+}
+
+.specialist--item-oparate {
+	position: absolute;
+	top: .4rem;
+	right: .26667rem;
+	width: .48rem;
+	height: .48rem;
+	background: url(../imgs/icon_add.png) 0 0/.48rem no-repeat
+}
+
+.j-swiper-tab {
+	display: none
+}
+
+.j-swiper-tab.current {
+	display: block
+}

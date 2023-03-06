@@ -1,0 +1,36 @@
+.amc-vip-box{
+	width: 96%;
+	height: auto;
+	margin: 0 auto;
+	padding: 2px 0 0 0;
+}
+
+.amc-vip-box-01{
+	width: 100%;
+	margin: 0 auto;
+	/* background-color: #ffddb2;
+	border-radius: 7px; */
+}
+
+.amc-vip-box-02{
+	margin: 12px 0 0 0;
+	width: 100%;
+	height: auto;
+}
+
+.amc-vip-box-02 img{
+	display: block;
+	width: 94%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.amc-vip-box-h3{
+	width: 100%;
+	margin: 0 auto;
+	margin: 10px 0 0 0;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	color: #1D1D1F;
+}

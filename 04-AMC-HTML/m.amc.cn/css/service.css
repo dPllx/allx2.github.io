@@ -1,0 +1,83 @@
+.header--sub {
+	width: 100%;
+	-webkit-box-shadow: 0 0 .24rem #999;
+	box-shadow: 0 0 .24rem #999;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.header--sub-title {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-size: .48rem;
+	text-align: center;
+	color: #f69c2b;
+	line-height: 1.06667rem
+}
+
+.header--sub-left,
+.header--sub-right {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	height: 1.06667rem
+}
+
+.header--sub-return {
+	display: block;
+	height: 1.06667rem;
+	width: 1.06667rem;
+	background: url(../imgs/arrow2.png) 50% no-repeat;
+	background-size: .16rem .29333rem;
+	text-indent: -99em;
+	overflow: hidden
+}
+
+.main {
+	padding: 1.33333rem 0 1.86667rem
+}
+
+.main-banner-img {
+	width: 100%
+}
+
+.service {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: .93333rem
+}
+
+.service,
+.service--item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.service--item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 25%;
+	flex: 0 1 25%;
+	text-align: center;
+	margin-bottom: .93333rem
+}
+
+.service--thumb {
+	height: 1.06667rem;
+	line-height: 1.06667rem
+}
+
+.service--link {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-size: .4rem;
+	color: #666
+}
+
+.service--thumb img {
+	width: .77333rem;
+	vertical-align: middle
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="trmaelephone=no" name="fot-detection">
+<title>新加坡安美信国际精准再生医疗</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/swiper.min2.css">
+<link rel="stylesheet" href="css/index2.css">
+<link rel="stylesheet" href="css/new_index.css">
+<link rel="stylesheet" href="../amciocn-font/iconfont.css">
+<link rel="stylesheet" href="css/m-amc-index.css">
+<link rel="stylesheet" href="swiper-amc/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="css/anniu.css">
+
+<style>
+	.main {
+		background-size: 100% 100%;
+	}
+</style>
+<script>
+	// only for mobile
+	// 不支持vw时，降级使用js,依据div width与预期vw大小不一致来判断
+	+(function() {
+		function d(k, l, n) {
+			var i;
+			if ("getComputedStyle" in window) {
+				i = getComputedStyle.call(window, k, l);
+				var j = window.console;
+				if (i !== null) {
+					if (n) {
+						i = i.getPropertyValue(n)
+					}
+				} else {
+					if (j) {
+						var m = j.error ? "error" : "log";
+						j[m].call(j,
+							"getComputedStyle returning null, its possible modernizr test results are inaccurate"
+						)
+					}
+				}
+			} else {
+				i = !l && k.currentStyle && k.currentStyle[n]
+			}
+			return i
+		}
+		var h = document.createElement("div");
+		h.id = "detect";
+		var f = document.createElement("style");
+		f.type = "text/css";
+		var g = "#detect{width:50vw}";
+		if (f.styleSheet) {
+			f.styleSheet.cssText = g
+		} else {
+			f.appendChild(document.createTextNode(g))
+		}
+		h.appendChild(f);
+		var a = document.body;
+		if (!a) {
+			a = document.createElement("body");
+			a.ishack = true
+		}
+		a.appendChild(h);
+		document.documentElement.appendChild(a);
+		var e = parseInt(window.innerWidth / 2, 10);
+		var b = parseInt(d(h, null, "width"), 10);
+		if (b != e) {
+			var c = document.createElement("script");
+			c.src = "js/flexible.min.js";
+			document.querySelector("head").appendChild(c)
+		}
+		a.removeChild(h);
+		a.ishack && document.documentElement.removeChild(a)
+	})();
+</script>
+</head>
+<style>
+.swiper-pagination-bullet {
+	width: .2rem;
+	height: .2rem;
+
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #ae7936;
+}
+</style>
+<body>
+<style>
+	.mean-container .mean-nav {
+		font-size: .38rem;
+	}
+</style>
+<script src="m-js-cs/js/jquery.min.js"></script>
+<script src="m-js-cs/js/jquery.meanmenu.min.js"></script>
+<script language="javascript" src="js/jquery.SuperSlide.2.1.3.js"></script>
+
+
+
+
+<header class="header">
+	<a href="index.html" class="header--logo2">
+		<a href="index.html" class="icon iconfont " id="amc-font-logo">&#xe642;<!-- <img alt="" src="amc/logo.png"> --></a>
+	</a>
+ 
+
+	<div class="header--nav meanmenu-reveal meanclose">nav</div>
+	<nav class="nav">
+		<ul>
+			<li>
+				<a href="m-amc-about-01.html">关于AMC</a>
+				<ul>
+					<li>
+						<a href="m-amc-about-01.html">AMC简介</a>
+					</li>
+					<li>
+						<a href="m-amc-about-01.html">精准医疗</a>
+					</li>
+					<li>
+						<a href="m-amc-about-01.html">医疗团队</a>
+					</li>
+					<li>
+						<a href="m-amc-about-01.html">先进技术</a>
+					</li>
+					<li>
+						<a href="m-amc-about-01.html">VIP管理中心</a>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="m-amc-shidazhongxin.html">医疗服务</a>
+				<ul>
+					<li>
+						<a href="m-amc-shidazhongxin.html">斐尔斯疗法</a>
+					</li>
+					<li>
+						<a href="m-amc-shidazhongxin.html">十大中心</a>
+					</li>
+					<li>
+						<a href="m-amc-shidazhongxin.html">四大项目链</a>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="m-amc-thing.html">AMC大事记</a>
+				<ul>
+					<li>
+						<a href="m-amc-thing.html">新华社专访</a>
+					</li>
+					<li>
+						<a href="m-amc-thing.html">开幕典礼</a>
+					</li>
+					<li>
+						<a href="m-amc-thing.html">莅临访问</a>
+					</li>
+					<li>
+						<a href="m-amc-thing.html">战略合作</a>
+					</li>
+					<!-- <li>
+						<a href="m-amc-thing.html">观看视频</a>
+					</li> -->
+				</ul>
+			</li>
+
+			<li>
+				<a href="m-amc-vip-00.html">尊享体验</a>
+				<ul>
+					<li>
+						<a href="m-amc-vip-01.html">环境体验</a>
+					</li>
+					<li>
+						<a href="m-amc-vip-02.html">人文体验</a>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="m-amc-visit-01.html">院内参观</a>
+				<ul>
+					<li>
+						<a href="m-amc-visit-01.html">一楼</a>
+					</li>
+					<li>
+						<a href="m-amc-visit-01.html">二楼</a>
+					</li>
+					<li>
+						<a href="m-amc-visit-01.html">三楼</a>
+					</li>
+					<li>
+						<a href="m-amc-visit-01.html">四楼</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+<div class="main">
+	<!-- Swiper -->
+	<div class="swiper mySwiper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="banner/m1.jpg" alt=""></div>
+		<div class="swiper-slide"><img src="banner/m2.jpg" alt=""></div>
+		<div class="swiper-slide"><img src="banner/m3.jpg" alt=""></div>
+		<div class="swiper-slide"><img src="banner/m4.jpg" alt=""></div>
+		<div class="swiper-slide"><img src="banner/m5.jpg" alt=""></div>
+		<div class="swiper-slide"><img src="banner/m6.jpg" alt=""></div>
+	  </div>
+	 <!-- <div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+	  <div class="swiper-pagination"></div> -->
+	</div>
+
+
+	<!--栏目-->
+	<div class="nwe_lm">
+
+
+		<div class="nwe_lm_box m-amc-txt-color">
+			<a href="m-amc-visit-01.html" class="icon iconfont amc-font">
+				&#xe641;
+				<h4>院内参观</h4>
+			</a>
+		</div>
+
+		<div class="nwe_lm_box m-amc-txt-color">
+			<a href="m-amc-vip-00.html" class="icon iconfont amc-font">
+				&#xe626;
+				<h4>尊享服务</h4>
+			</a>
+		</div>
+		<div class="nwe_lm_box m-amc-txt-color">
+			<a href="m-amc-thing.html" class="icon iconfont amc-font">
+				&#xe616;
+				<h4>新华社专访</h4>
+			</a>
+		</div>
+		<div class="nwe_lm_box m-amc-txt-color">
+			<a href="m-amc-about-01.html" class="icon iconfont amc-font">
+				&#xe623;
+				<h4>精准医疗</h4>
+			</a>
+		</div>
+
+
+	</div>
+	<!--栏目end-->
+	<div class="new_part1">
+		<h3>十大中心</h3>
+		<p>
+			安美信(AMC)致力于现代精准再生健康定制、精准检测分析、细胞疗法、抗衰老应用、海外医疗、再生美丽细胞项目、
+			私人定制医疗、疾病预防、(基因细胞保存)、远程医疗服务、健康数据采集分析及应用、干细胞冷冻等领域的服务。
+		</p>
+		<div class="new_part1_box">
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe62b;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">肝脏代谢再生中心</a></h5>
+				</div>
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe62a;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">慢性疲劳管理中心</a></h5>
+				</div>
+		</div>
+		<div class="new_part1_box">
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe631;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">免疫平衡管理中心</a></h5>
+				</div>
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe630;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">血管瑜伽再生中心</a></h5>
+				</div>
+		</div>
+		<div class="new_part1_box">
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe62f;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">代谢管理再生中心</a></h5>
+				</div>
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe62e;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">肿瘤预防管理中心</a></h5>
+				</div>
+		</div>
+		<div class="new_part1_box">
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe62c;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">骨骼系统再生中心</a></h5>
+				</div>
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe62d;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">性福回春再生中心</a></h5>
+				</div>
+		</div>
+		<div class="new_part1_box">
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe628;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">心灵疗愈再生中心</a></h5>
+				</div>
+				<div class="m-amc-box">
+					<a href="m-amc-shidazhongxin.html" class="icon iconfont m-amc-font">&#xe629;</a>
+					<h5 class="amc-h5-a"><a href="m-amc-shidazhongxin.html">抗衰管理再生中心</a></h5>
+				</div>
+		</div>
+	</div>
+	<!--了解更多-->
+	<div class="new_part6">
+		<h3>了解更多</h3>
+
+		<div class="new_part6_box">
+			<ul class="bo-am-ul ay">
+				<li> <a href="m-amc-thing.html">
+					<img src="../amc/img/pic2.jpg" alt="">
+					 新华社专访</a>
+					
+				</li>
+				<li><a href="m-amc-shidazhongxin.html">
+					<img src="../amc/img/pic1.jpg" alt="">
+					 四大项目链</a>
+				</li>
+				<li><a href="m-amc-thing.html">
+					<img src="../amc/img/pic3.jpg" alt="">
+					 开幕典礼</a>
+				</li>
+				<li><a href="m-amc-about-01.html">
+					<img src="../amc/img/pic4.jpg" alt="">
+					精准医疗</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="new_part6_gd"><a href="javascript:void(0);">
+			</a></div>
+	</div>
+	<!--了解更多-->
+	<!--底部-->
+	<div class="copyright">
+		<p>Copyright © 2022.新加坡安美信国际精准再生医疗</p>
+		<p>All rights reserved.</p>
+		<p>广东省广州市黄埔区中新广州知识城腾飞园二街五号B1栋</p>
+	</div>
+	<!--底部end-->
+</div>
+
+
+<footer class="footer">
+	<ul class="footer--list">
+		<li class="footer--item">
+			<a href="javascript:void(0);" class="footer--index">网站首页</a>
+		</li>
+		<li class="footer--item">
+			<a href="m-amc-about-01.html"
+				class="footer--consult">关于安美信</a>
+		</li>
+		<li class="footer--item">
+			<a href="m-amc-shidazhongxin.html" class="footer--intro">医疗服务</a>
+		</li>
+		<li class="footer--item">
+			<a href="m-amc-gps-01.html" class="footer--tel">联系我们</a>
+		</li>
+	</ul>
+</footer>
+
+
+<script src="js/swiper.min2.js"></script>
+<script src="swiper-amc/swiper-bundle.min.js"></script>
+
+<script>
+	$(function() {
+		$('.header .nav').meanmenu();
+
+		// 下拉效果
+		$('.j-service').on('click', '.j-service-title', function() {
+			$(this).parent().toggleClass('active').siblings('.j-service').removeClass('active');
+		});
+
+		var swiper1 = new Swiper('#swiper1', {
+
+			pagination: {
+				el: '.swiper-pagination',
+			},
+
+
+		});
+		
+		// banner自动播放
+		var swiper = new Swiper(".mySwiper", {
+		  spaceBetween: 30,
+		  centeredSlides: true,
+		  autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		  },
+		  pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		  },
+		  navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		  },
+		});
+
+
+	});
+</script>
+
+
+
+
+</body>
+
+</html>

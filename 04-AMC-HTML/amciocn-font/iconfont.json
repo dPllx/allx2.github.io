@@ -1,0 +1,352 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "101491623",
+      "name": "about-AMC",
+      "font_class": "about-AMC",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "101491624",
+      "name": "10-core",
+      "font_class": "a-10-core",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "101491625",
+      "name": "thing",
+      "font_class": "thing",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "101491626",
+      "name": "service",
+      "font_class": "service",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "101491627",
+      "name": "visit",
+      "font_class": "visit",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "101491628",
+      "name": "ground-floor",
+      "font_class": "ground-floor",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "101491629",
+      "name": "second-floor",
+      "font_class": "second-floor",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "101491630",
+      "name": "third-floor",
+      "font_class": "third-floor",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "101491631",
+      "name": "fourthFloor",
+      "font_class": "fourthFloor",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "101491632",
+      "name": "AMC-honor",
+      "font_class": "AMC-honor",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "101491633",
+      "name": "AMC-open",
+      "font_class": "AMC-open",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "101491634",
+      "name": "cooperation",
+      "font_class": "cooperation",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "101491635",
+      "name": "AMC-team",
+      "font_class": "AMC-team",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "101491636",
+      "name": "humanity",
+      "font_class": "humanity",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "101491637",
+      "name": "environment",
+      "font_class": "environment",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "101491638",
+      "name": "AMC-profile",
+      "font_class": "AMC-profile",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "101491639",
+      "name": "P-Medicine",
+      "font_class": "P-Medicine",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "101491640",
+      "name": "leader-visit",
+      "font_class": "leader-visit",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "101491641",
+      "name": "technology",
+      "font_class": "technology",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "101491642",
+      "name": "vip",
+      "font_class": "vip",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "101491643",
+      "name": "watch-video",
+      "font_class": "watch-video",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "101491645",
+      "name": "heart-core",
+      "font_class": "heart-core",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "101491646",
+      "name": "antifading-core",
+      "font_class": "antifading-core",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "101491647",
+      "name": "fatigue-core",
+      "font_class": "fatigue-core",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "101491648",
+      "name": "liver-core",
+      "font_class": "liver-core",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "101491649",
+      "name": "bones-core",
+      "font_class": "bones-core",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "101491650",
+      "name": "sexy-core",
+      "font_class": "sexy-core",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "101491651",
+      "name": "tumour-core",
+      "font_class": "tumour-core",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "101491652",
+      "name": "metabolize-core",
+      "font_class": "metabolize-core",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "101491653",
+      "name": "veins-core",
+      "font_class": "veins-core",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "101491654",
+      "name": "immune-core",
+      "font_class": "immune-core",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "101491662",
+      "name": "Ecological-meal",
+      "font_class": "Ecological-meal",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "101491663",
+      "name": "ceremony",
+      "font_class": "ceremony",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "101491664",
+      "name": "nico-experiment",
+      "font_class": "nico-experiment",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "101491665",
+      "name": "teas-time",
+      "font_class": "teas-time",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "101491666",
+      "name": "anion-air",
+      "font_class": "anion-air",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "101491667",
+      "name": "green-meal",
+      "font_class": "green-meal",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "101491668",
+      "name": "salon",
+      "font_class": "salon",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "101491669",
+      "name": "lipstick-party",
+      "font_class": "lipstick-party",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "101491670",
+      "name": "AMC-LOGO",
+      "font_class": "AMC-LOGO",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "101491671",
+      "name": "water",
+      "font_class": "water",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "101491805",
+      "name": "movies-core",
+      "font_class": "movies-core",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "101491806",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "101491807",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "101491808",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "750883",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e7ad",
+      "unicode_decimal": 59309
+    },
+    {
+      "icon_id": "30263554",
+      "name": "NICO-LOGO",
+      "font_class": "NICO-LOGO",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "30263724",
+      "name": "visit",
+      "font_class": "visit1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "30264160",
+      "name": "AMC-LOGO",
+      "font_class": "AMC-LOGO1",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    }
+  ]
+}
