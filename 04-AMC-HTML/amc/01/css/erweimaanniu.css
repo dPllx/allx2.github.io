@@ -1,0 +1,106 @@
+#part_bd {
+	display: none;
+	width: 380px;
+	height: 600px;
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	padding-top: 20px;
+	z-index: 999;
+
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.info__input {
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	width: 90%;
+	height: 50px;
+	font-size: 16px;
+	margin-top: 0.5rem;
+	background-color: #FBFBFD;
+	padding-left: 10px;
+}
+
+.select {
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	width: 30px;
+	height: 20px;
+	font-size: 16px;
+	margin-top: 20px;
+	padding-left: 10px;
+	color: #999;
+}
+
+.st input {
+	background-color: #db9946;
+	border-radius: 5px;
+	width: 40%;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	color: #FBFBFD;
+	margin: 20px auto;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 33%;
+}
+
+.part1_bd {
+	font-size: 20px;
+	color: #724001;
+	margin-top: 2px
+}
+
+.part1_bd input {
+	border: 1px solid #CCC;
+	margin-left: 10px;
+	width: 60%;
+	margin-top: 15px
+}
+
+.part1_bd select {
+	border: 1px solid #CCC;
+	margin-left: 10px;
+	width: 60%;
+	margin-top: 15px
+}
+
+.part1_bd p {
+	float: left;
+	text-align: right;
+	width: 30%;
+	margin-top: 20px
+}
+
+.p-erweima-img {
+	padding: 1px;
+	text-align: center;
+}
+
+.p-erweima-img img {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.gb {
+	text-align: right;
+	font-size: 16px;
+	margin-bottom: 2px;
+	padding-right: 18px;
+	cursor: pointer
+}

@@ -1,0 +1,33 @@
+.amc-gps-box {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.amc-gps-erweima {
+	width: 49%;
+	margin-top: 2%;
+	float: left;
+}
+
+.amc-gps-erweima-box {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.abn_recommend-01 ul li {
+	text-align: center;
+	float: left;
+	width: 25%;
+	margin-left: 15px;
+}
+
+.amc-gps-erweima img {
+	width: auto;
+	margin: 0 auto;
+}
+
+.about_h4 {
+	margin-left: 15px;
+}
+
+#container {}

@@ -1,0 +1,68 @@
+.amc-yuanjiao {
+	width: 100%;
+}
+
+.amc-yuanjiao li {
+	width: 48.5555555%;
+	margin-left: 0.5%;
+	float: left;
+}
+
+.amc-yuanjiao li span {
+	display: inline-block;
+	padding: 8px 18px;
+	background: #db9946;
+	font-size: 20px;
+	color: #FBFBFD;
+	border-radius: 16px;
+	line-height: 20px;
+	margin-right: 16px;
+}
+
+.yuan-yy {
+	margin-left: 50px;
+}
+
+
+.amc-yuanjiao-01 {
+	margin-top: -35px;
+	width: 100%;
+}
+
+.amc-yuanjiao-01 li {
+	width: 61%;
+	margin-left: 0.5%;
+	margin-top: 12px;
+	border-radius: 20px;
+	border: 1px solid #db9946;
+}
+
+.amc-yuanjiao-01 li span {
+	display: inline-block;
+	padding: 8px 18px;
+	background: #db9946;
+	font-size: 20px;
+	color: #FBFBFD;
+	border-radius: 16px;
+	line-height: 20px;
+	margin-right: 16px;
+}
+
+.amc-yuanjiao-01 li:hover {
+	width: 63%;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	border: 1px solid #db9946;
+	border-radius: 23px;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	/* 
+	transform: translate(0,0);
+	transition:all .1s ease-in 0s; */
+}
+
+.amc-yuanjiao-01 a:hover {
+	margin-top: -1px;
+}
